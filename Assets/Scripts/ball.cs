@@ -10,7 +10,13 @@ public class ball : MonoBehaviour
     }
     private void Start()
     {
-        startforce();
+        ResetPosition();
+    }
+     public void ResetPosition()
+    {
+        _rigidbody.position = Vector3.zero;
+        _rigidbody.linearVelocity = Vector3.zero;
+       startforce();
     }
     public void AddForce(Vector2 force)
     {
@@ -25,6 +31,4 @@ public class ball : MonoBehaviour
     Vector2 direction = new Vector2(x,y);
 _rigidbody.AddForce(direction * this.speed);
     }
-    
-
 }
