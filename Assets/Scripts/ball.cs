@@ -12,6 +12,10 @@ public class ball : MonoBehaviour
     {
         startforce();
     }
+    public void AddForce(Vector2 force)
+    {
+        _rigidbody.AddForce(force);
+    }
     private void startforce()
     {
         float x = Random.value < 0.5f ? -1.0f : 1.0f;
@@ -21,5 +25,6 @@ public class ball : MonoBehaviour
     Vector2 direction = new Vector2(x,y);
 _rigidbody.AddForce(direction * this.speed);
     }
+    
 
 }
