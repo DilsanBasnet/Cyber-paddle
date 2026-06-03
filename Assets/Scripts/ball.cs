@@ -3,13 +3,20 @@ using UnityEngine;
 public class ball : MonoBehaviour
 {
     private Rigidbody2D _rigidbody;
-    public float speed =199f;
+    [SerializeField] public float speed =199f;
+    public SpriteRenderer spriteRenderer;
+    public Sprite[] ballskins;
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
     private void Start()
     {
+        int saveskin = PlayerPrefs.GetInt("SelectBallSkin", 0);
+        if(ballskins != null && saveskin < ballskins.Length && ballskins[saveskin] != null)
+        {
+            spriteRenderer.sprite = ballskins[saveskin];
+        }
         ResetPosition();
         startforce();
     }

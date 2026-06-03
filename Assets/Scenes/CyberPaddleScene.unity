@@ -3168,7 +3168,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.114, y: 2.022, z: 0}
-  m_LocalScale: {x: 0.10621781, y: 0.11146858, z: 0.10020547}
+  m_LocalScale: {x: 0.15953915, y: 0.16742581, z: 0.15050861}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1292490448}
@@ -3308,6 +3308,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ball
   speed: 400
+  spriteRenderer: {fileID: 928447599}
+  ballskins:
+  - {fileID: -3603556060819865620, guid: be06aead209859f4ba41391b631a9110, type: 3}
+  - {fileID: 1338603833586857640, guid: 656e86753cb3af34e80a88b74dafcd4f, type: 3}
+  - {fileID: -3079722678121271134, guid: a48ecbfefa5d4534ab79c7bceaefc805, type: 3}
+  - {fileID: -178098396436122259, guid: 62548955fdb9b254592f20d8532b5923, type: 3}
+  - {fileID: 852457096184536901, guid: 2bd6134ed14b7c445aee3fd45ac2636f, type: 3}
 --- !u!1 &960163824
 GameObject:
   m_ObjectHideFlags: 0

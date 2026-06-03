@@ -7,4 +7,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("CyberPaddleScene");
     } 
+    public void SetBallskin(int skinIndex)
+    {
+        PlayerPrefs.SetInt("SelectBallSkin", skinIndex);
+        PlayerPrefs.Save();
+
+    }
 }
