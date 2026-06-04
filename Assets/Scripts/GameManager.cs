@@ -17,12 +17,18 @@ public class Gamemanager : MonoBehaviour
   public GameObject gameOverPanel;
   public TextMeshProUGUI winner;
 
+  public AudioSource scoreAudio;
+
 
   public void TotalPlayerScore()
     {
         _playerScore++;
         this.playerScore.text = _playerScore.ToString();
         Debug.Log(_playerScore);
+        if(scoreAudio != null)
+    {
+      scoreAudio.Play();
+    }
         if(_playerScore >= 10)
     {
       DeclareWinner("PLAYER WIN");
@@ -39,6 +45,10 @@ public class Gamemanager : MonoBehaviour
         _computerScore++;
         this.computerScore.text = _computerScore.ToString();
         Debug.Log(_computerScore);
+        if(scoreAudio != null)
+    {
+      scoreAudio.Play();
+    }
         if(_computerScore >= 10)
     {
       DeclareWinner("BOT WIN");
