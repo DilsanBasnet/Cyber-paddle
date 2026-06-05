@@ -1,7 +1,7 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class Gamemanager : MonoBehaviour
 {
@@ -26,8 +26,8 @@ public class Gamemanager : MonoBehaviour
 
     void Update()
     {
-        if(UnityEngine.InputSystem.Keyboard.current != null && 
-        UnityEngine.InputSystem.Keyboard.current.escapeKey.wasPressedThisFrame) {
+        if(Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) 
+         {
     
      if(isPaused) {
       ResumeGame();
