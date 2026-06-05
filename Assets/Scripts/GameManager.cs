@@ -15,12 +15,30 @@ public class Gamemanager : MonoBehaviour
   public paddles computerpaddle;
 
   public GameObject gameOverPanel;
+
+  public GameObject pausePanel;
+  private bool isPaused = false;
   public TextMeshProUGUI winner;
 
   public AudioSource scoreAudio;
 
+ 
 
-  public void TotalPlayerScore()
+    void Update()
+    {
+        if(UnityEngine.InputSystem.Keyboard.current != null && 
+        UnityEngine.InputSystem.Keyboard.current.escapeKey.wasPressedThisFrame) {
+    
+     if(isPaused) {
+      ResumeGame();
+    }
+    else
+    {
+      PauseGame();
+    }
+    }}
+
+    public void TotalPlayerScore()
     {
         _playerScore++;
         this.playerScore.text = _playerScore.ToString();
@@ -61,6 +79,18 @@ public class Gamemanager : MonoBehaviour
     winner.text = winnerMsg;
     
     Time.timeScale = 0f;
+  }
+  public void PauseGame()
+  {
+    pausePanel.SetActive(true);
+    Time.timeScale = 0f;
+    isPaused = false;
+  }
+  public void ResumeGame()
+  {
+    pausePanel.SetActive(false);
+    Time.timeScale = 1f;
+    isPaused = false;
   }
 
   public void GoToMainMenu()
