@@ -319,6 +319,7 @@ GameObject:
   - component: {fileID: 572638252}
   - component: {fileID: 572638251}
   - component: {fileID: 572638250}
+  - component: {fileID: 572638253}
   m_Layer: 5
   m_Name: Ninjaball
   m_TagString: Untagged
@@ -439,6 +440,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572638248}
   m_CullTransparentMesh: 1
+--- !u!95 &572638253
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572638248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fceab98ec77734948baebd8079714318, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &940820676
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +725,7 @@ GameObject:
   - component: {fileID: 1057977164}
   - component: {fileID: 1057977163}
   - component: {fileID: 1057977162}
+  - component: {fileID: 1057977165}
   m_Layer: 5
   m_Name: Dragonball
   m_TagString: Untagged
@@ -822,6 +846,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057977160}
   m_CullTransparentMesh: 1
+--- !u!95 &1057977165
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057977160}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cf5bb7edda37af43972fb33be317014, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1162395036
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +894,7 @@ Transform:
   m_GameObject: {fileID: 1162395036}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.35, y: 1.45, z: 0}
+  m_LocalPosition: {x: -2.05, y: 1.61, z: 0}
   m_LocalScale: {x: 0.86112964, y: 0.86112964, z: 0.86112964}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1000,6 +1046,7 @@ GameObject:
   - component: {fileID: 1287190341}
   - component: {fileID: 1287190340}
   - component: {fileID: 1287190339}
+  - component: {fileID: 1287190342}
   m_Layer: 5
   m_Name: Purpleball
   m_TagString: Untagged
@@ -1120,6 +1167,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287190337}
   m_CullTransparentMesh: 1
+--- !u!95 &1287190342
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287190337}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 60d237e3178741c4aa3667f3aa9666e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1328850939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,6 +1462,7 @@ GameObject:
   - component: {fileID: 1520331676}
   - component: {fileID: 1520331675}
   - component: {fileID: 1520331674}
+  - component: {fileID: 1520331677}
   m_Layer: 5
   m_Name: Pokyball
   m_TagString: Untagged
@@ -1513,6 +1583,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520331672}
   m_CullTransparentMesh: 1
+--- !u!95 &1520331677
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520331672}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc1dadc932ca9204c92d8ec389478fea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1556132059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1767,7 @@ GameObject:
   - component: {fileID: 1840379933}
   - component: {fileID: 1840379932}
   - component: {fileID: 1840379931}
+  - component: {fileID: 1840379934}
   m_Layer: 5
   m_Name: Snowball
   m_TagString: Untagged
@@ -1795,6 +1888,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840379929}
   m_CullTransparentMesh: 1
+--- !u!95 &1840379934
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840379929}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15d7ded7a2bc2b44b9c8aed0d65b4450, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1847098772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,14 +1939,14 @@ RectTransform:
   m_GameObject: {fileID: 1847098772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5941076, y: 3.3062966, z: 1.4760253}
+  m_LocalScale: {x: 1.6279026, y: 3.37639, z: 1.507317}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 962796695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -425}
+  m_AnchoredPosition: {x: 0, y: -410}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847098774
@@ -2176,7 +2291,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.06074, y: -0.94, z: 0}
-  m_LocalScale: {x: 0.58864886, y: 0.58864886, z: 0.58864886}
+  m_LocalScale: {x: 0.6209892, y: 0.6209892, z: 0.6209892}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 483038290}
@@ -2266,7 +2381,7 @@ Transform:
   m_GameObject: {fileID: 1970338326}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.27, y: 1.35, z: 0}
+  m_LocalPosition: {x: 2, y: 0.68, z: 0}
   m_LocalScale: {x: 0.8611296, y: 0.8611296, z: 0.8611296}
   m_ConstrainProportionsScale: 0
   m_Children: []
