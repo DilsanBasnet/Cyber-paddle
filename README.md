@@ -4,6 +4,19 @@
 
 It i a modern 2D arcade game build using Unity & C #. It is a like replica of classic pong game where player and a computer bot face off to score points but having many more features like : Retro Gameplay loop wita a beautiful cyber neon theme, modern UI , & custom feature sets.Ball Skin Section Features, peace Soft Bg music. Play, Exit, Resume, Main Menu Buttons, Different SFX.
 
+## Controls : 
+
+- W / Up Arrow Key - Move Player Paddle Up.
+- S / Down Arrow Key - Move Player paddle Down.
+- Escape Key - Pause Game . 
+
+## Build With : 
+
+- Unity - Game Engine
+- C# - as Language.
+- Pixlr - for Button Designing, Name Designing
+- Opengameart - Music & SFXs.
+- Pinterest - Some Sprites like bg, some buttons, etc.
 ## Featues:  
 
 - Main Menu Scene :  Start Button, Ball Skin Selection Feature, Beautiful Bg image, Select Ball Sprites, & Scale Animation on Balls & Start Button, & Soft Music Starts from this Scene.
@@ -13,11 +26,7 @@ It i a modern 2D arcade game build using Unity & C #. It is a like replica of cl
 - Audio : Soft Background Music, Win SFX which plays after player or bot scored 10 points and GameOver Win panel Screen comes, & Points SFX which plays after player or bot score a point .
 - --
 
-## Controls : 
 
-- W / Up Arrow Key - Move Player Paddle Up.
-- S / Down Arrow Key - Move Player paddle Down.
-- Escape Key - Pause Game . 
 
 ## ScreenShots : 
 - ## MAINMENU SCENE
