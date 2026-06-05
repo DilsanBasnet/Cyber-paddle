@@ -25,16 +25,14 @@ public class Gamemanager : MonoBehaviour
         _playerScore++;
         this.playerScore.text = _playerScore.ToString();
         Debug.Log(_playerScore);
-        if(scoreAudio != null)
-    {
-      scoreAudio.Play();
-    }
+       
         if(_playerScore >= 10)
     {
       DeclareWinner("PLAYER WIN");
     }
     else
     {
+      if(scoreAudio != null) scoreAudio.Play();
        ResetEverything(); 
     }
       
@@ -45,16 +43,14 @@ public class Gamemanager : MonoBehaviour
         _computerScore++;
         this.computerScore.text = _computerScore.ToString();
         Debug.Log(_computerScore);
-        if(scoreAudio != null)
-    {
-      scoreAudio.Play();
-    }
+        
         if(_computerScore >= 10)
     {
       DeclareWinner("BOT WIN");
 
     }
      else {
+      if(scoreAudio != null) scoreAudio.Play();
         ResetEverything();
         }
     }
@@ -63,6 +59,7 @@ public class Gamemanager : MonoBehaviour
   {
     gameOverPanel.SetActive(true);
     winner.text = winnerMsg;
+    
     Time.timeScale = 0f;
   }
 
